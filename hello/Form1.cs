@@ -19,10 +19,15 @@ namespace hello
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hello " + TxtBxName.Text+ " nice to meet you");
+            MessageBox.Show("Hello " + TxtBxName.Text + " and " + TxtBxName2.Text);
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
