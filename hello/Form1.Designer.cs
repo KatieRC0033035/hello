@@ -28,19 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.GoodbyeButton = new System.Windows.Forms.Button();
+            this.CustomMessageButton = new System.Windows.Forms.Button();
             this.TxtBxName = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // GoodbyeButton
+            // CustomMessageButton
             // 
-            this.GoodbyeButton.Location = new System.Drawing.Point(505, 160);
-            this.GoodbyeButton.Name = "GoodbyeButton";
-            this.GoodbyeButton.Size = new System.Drawing.Size(75, 23);
-            this.GoodbyeButton.TabIndex = 0;
-            this.GoodbyeButton.Text = "goodbye";
-            this.GoodbyeButton.UseVisualStyleBackColor = true;
-            this.GoodbyeButton.Click += new System.EventHandler(this.button1_Click);
+            this.CustomMessageButton.Location = new System.Drawing.Point(505, 160);
+            this.CustomMessageButton.Name = "CustomMessageButton";
+            this.CustomMessageButton.Size = new System.Drawing.Size(75, 23);
+            this.CustomMessageButton.TabIndex = 0;
+            this.CustomMessageButton.Text = "custom";
+            this.CustomMessageButton.UseVisualStyleBackColor = true;
+            this.CustomMessageButton.Click += new System.EventHandler(this.button1_Click);
             // 
             // TxtBxName
             // 
@@ -55,7 +55,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.TxtBxName);
-            this.Controls.Add(this.GoodbyeButton);
+            this.Controls.Add(this.CustomMessageButton);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -66,7 +66,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button GoodbyeButton;
+        private System.Windows.Forms.Button CustomMessageButton;
         private System.Windows.Forms.TextBox TxtBxName;
     }
 }
