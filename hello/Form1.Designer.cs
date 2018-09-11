@@ -28,19 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.WelcomeButton = new System.Windows.Forms.Button();
+            this.GoodbyeButton = new System.Windows.Forms.Button();
             this.TxtBxName = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // WelcomeButton
+            // GoodbyeButton
             // 
-            this.WelcomeButton.Location = new System.Drawing.Point(505, 160);
-            this.WelcomeButton.Name = "WelcomeButton";
-            this.WelcomeButton.Size = new System.Drawing.Size(75, 23);
-            this.WelcomeButton.TabIndex = 0;
-            this.WelcomeButton.Text = "welcome";
-            this.WelcomeButton.UseVisualStyleBackColor = true;
-            this.WelcomeButton.Click += new System.EventHandler(this.button1_Click);
+            this.GoodbyeButton.Location = new System.Drawing.Point(505, 160);
+            this.GoodbyeButton.Name = "GoodbyeButton";
+            this.GoodbyeButton.Size = new System.Drawing.Size(75, 23);
+            this.GoodbyeButton.TabIndex = 0;
+            this.GoodbyeButton.Text = "goodbye";
+            this.GoodbyeButton.UseVisualStyleBackColor = true;
+            this.GoodbyeButton.Click += new System.EventHandler(this.button1_Click);
             // 
             // TxtBxName
             // 
@@ -55,7 +55,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.TxtBxName);
-            this.Controls.Add(this.WelcomeButton);
+            this.Controls.Add(this.GoodbyeButton);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -66,7 +66,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button WelcomeButton;
+        private System.Windows.Forms.Button GoodbyeButton;
         private System.Windows.Forms.TextBox TxtBxName;
     }
 }
