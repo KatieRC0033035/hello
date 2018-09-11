@@ -28,19 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.HelloButton = new System.Windows.Forms.Button();
+            this.WelcomeButton = new System.Windows.Forms.Button();
             this.TxtBxName = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // HelloButton
+            // WelcomeButton
             // 
-            this.HelloButton.Location = new System.Drawing.Point(505, 160);
-            this.HelloButton.Name = "HelloButton";
-            this.HelloButton.Size = new System.Drawing.Size(75, 23);
-            this.HelloButton.TabIndex = 0;
-            this.HelloButton.Text = "hello";
-            this.HelloButton.UseVisualStyleBackColor = true;
-            this.HelloButton.Click += new System.EventHandler(this.button1_Click);
+            this.WelcomeButton.Location = new System.Drawing.Point(505, 160);
+            this.WelcomeButton.Name = "WelcomeButton";
+            this.WelcomeButton.Size = new System.Drawing.Size(75, 23);
+            this.WelcomeButton.TabIndex = 0;
+            this.WelcomeButton.Text = "welcome";
+            this.WelcomeButton.UseVisualStyleBackColor = true;
+            this.WelcomeButton.Click += new System.EventHandler(this.button1_Click);
             // 
             // TxtBxName
             // 
@@ -55,9 +55,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.TxtBxName);
-            this.Controls.Add(this.HelloButton);
+            this.Controls.Add(this.WelcomeButton);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -65,7 +66,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button HelloButton;
+        private System.Windows.Forms.Button WelcomeButton;
         private System.Windows.Forms.TextBox TxtBxName;
     }
 }
